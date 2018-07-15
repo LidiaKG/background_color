@@ -1,0 +1,35 @@
+
+body {
+	transition: background-color 2s ease-out;
+}
+
+.red {
+  
+  transition: background-color 2s ease-out;
+  }
+  
+  
+.red:hover {
+  background-color: red;
+}
+
+.yellow {
+  
+  transition: background-color 2s ease-out;
+  }
+  
+  
+.yellow:hover {
+  background-color: yellow;
+}
+
+.green {
+  
+  transition: background-color 2s ease-out;
+  }
+  
+  
+.green:hover {
+  background-color: green;
+}
+

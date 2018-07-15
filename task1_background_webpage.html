@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>background webpage</title>
+<meta charset = "utf-8"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<script type = "text/javascript">
+
+var previousColor = "transparent";
+
+// function to change background color
+
+function changeBodyBg(color){
+        document.body.style.background = color; // changing current color
+		
+				 		
+		document.getElementById("info").innerHTML = "The color has been changed from " + previousColor + " to " + color + ".";
+		
+		previousColor = color;
+		
+    }
+</script> 
+
+<p> Clik on the link to change backgound color. </p>
+	<ul>
+		<a href='javascript:changeBodyBg("red");'> <li>Red </li></a>
+		<a href='javascript:changeBodyBg("yellow");'> <li>Yellow </li></a>
+		<a href='javascript:changeBodyBg("green");'> <li>Green </li></a>
+	</ul>
+	
+<p id= "info"> </p>
+	
+	
+
+</body>
+
+</html>
